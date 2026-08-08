@@ -1,8 +1,8 @@
 function App() {
   return (
-    <div>
-      <h1>Portfolio</h1>
-    </div>
+    <main>
+      <h1>Portfolio Website</h1>
+    </main>
   );
 }
 
