@@ -89,18 +89,6 @@ function Hero() {
 
         </div>
 
-
-        <div className="hero-image-wrapper">
-
-          <img
-            src={heroImage}
-            alt="Portfolio"
-            className="hero-image"
-          />
-
-        </div>
-
-
       </div>
 
     </section>

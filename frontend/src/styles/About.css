@@ -1,0 +1,120 @@
+.about {
+  background: #ffffff;
+}
+
+
+.section-heading {
+  max-width: 760px;
+
+  margin-bottom: 45px;
+}
+
+
+.section-label {
+  margin-bottom: 8px;
+
+  font-size: 0.95rem;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+
+  color: #2563eb;
+}
+
+
+.section-heading h2 {
+  font-size: clamp(
+    2rem,
+    4vw,
+    3rem
+  );
+
+  line-height: 1.2;
+
+  color: #111827;
+}
+
+
+.about-content {
+  display: grid;
+
+  grid-template-columns:
+    1.2fr 1fr;
+
+  gap: 60px;
+
+  align-items: start;
+}
+
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+
+.about-text p {
+  font-size: 1.05rem;
+
+  color: #4b5563;
+}
+
+
+.about-highlights {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 18px;
+}
+
+
+.about-card {
+  padding: 24px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  background: #f9fafb;
+}
+
+
+.about-number {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: 2rem;
+  font-weight: 700;
+
+  color: #2563eb;
+}
+
+
+.about-card p {
+  font-size: 0.95rem;
+
+  color: #4b5563;
+}
+
+
+@media (max-width: 850px) {
+
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .about-highlights {
+    grid-template-columns: 1fr;
+  }
+
+}
