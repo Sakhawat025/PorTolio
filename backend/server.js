@@ -11,6 +11,11 @@ const projectRoutes =
 const miscRoutes =
   require('./routes/misc');
 
+  const contactRoutes =
+  require('./routes/contact');
+
+
+
 const app = express();
 
 const PORT = process.env.PORT || 5000;
@@ -68,6 +73,8 @@ app.get('/api/health', (req, res) => {
 app.use('/api/projects', projectRoutes);
 // Skills and Experience API
 app.use('/api', miscRoutes);
+// Contact
+app.use('/api/contact', contactRoutes);
 
 
 // ----------------------------
