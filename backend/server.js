@@ -5,6 +5,9 @@ const cors = require('cors');
 
 const { testConnection } = require('./config/db');
 
+const projectRoutes =
+  require('./routes/projects');
+
 const app = express();
 
 const PORT = process.env.PORT || 5000;
@@ -58,6 +61,8 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+app.use('/api/projects', projectRoutes);
+
 
 // ----------------------------
 // 404 Route
@@ -70,6 +75,7 @@ app.use((req, res) => {
   });
 });
 
+app.use('/api/projects', projectRoutes);
 
 // ----------------------------
 // Global Error Handler
