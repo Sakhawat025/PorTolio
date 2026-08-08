@@ -1,9 +1,18 @@
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+
+
 function App() {
   return (
-    <main>
-      <h1>Portfolio Website</h1>
-    </main>
+    <>
+      <Navbar />
+
+      <main>
+        <Hero />
+      </main>
+    </>
   );
 }
+
 
 export default App;
