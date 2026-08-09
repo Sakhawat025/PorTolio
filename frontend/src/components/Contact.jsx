@@ -176,7 +176,7 @@ function Contact() {
             <div className="contact-details">
 
               <a
-                href="mailto:YOUR_EMAIL@example.com"
+                href="sakhawathossai25@gmail.com"
                 className="contact-detail"
               >
                 <FaEnvelope />
@@ -188,7 +188,7 @@ function Contact() {
 
 
               <a
-                href="https://github.com/YOUR_USERNAME"
+                href="https://github.com/Sakhawat025"
                 target="_blank"
                 rel="noreferrer"
                 className="contact-detail"
